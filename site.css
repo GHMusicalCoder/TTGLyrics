@@ -1,0 +1,27 @@
+.title {
+    font-size: 2em;
+    text-align: center;
+}
+
+.lyrics {
+    font-size: 1.5em;
+    text-align: right;
+    font-weight: bold;
+}
+
+.songTitle {
+    font-size: 2em;
+    text-align: right;
+}
+
+.size {
+	width: 125px;
+}
+
+.chords {
+    font-size: 1.5em;
+    text-align: right;
+    font-weight: bold;
+	color: blue;
+}
+	
