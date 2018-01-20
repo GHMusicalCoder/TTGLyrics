@@ -11,6 +11,40 @@
         <script src="./bootstrap.bundle.min.js"></script>
         <script type="text/javascript">
             $(document).off('.data-api');
+            var songList = [];
+
+            // format of a song entry is file name (without html), button info in html
+            songList.push(['amergirl','American<br/>Girl']);
+            songList.push(['breakchain','Breaking<br/>The Chains']);
+            songList.push(['brickhouse','Brick<br/>House']);
+            songList.push(['browneye','Brown Eyed<br/>Girl']);
+            songList.push(['doublevision','Double<br/>Vision']);
+            songList.push(['entersand','Enter<br/>Sandman']);
+            songList.push(['everybody','Everybody<br/>Wants You']);
+            songList.push(['highground','Higher<br/>Ground']);
+            songList.push(['hungrywolf','Hungry Like<br/>The Wolf']);
+            songList.push(['livmidnight','Living After<br/>Midnight']);
+            songList.push(['mustangsally','Mustang<br/>Sally']);
+            songList.push(['funkymusic','Play That<br/>Funky Music']);
+            songList.push(['shoutoutloud','Shout It<br/>Out Loud']);
+            songList.push(['stuckmiddle','Stuck In<br/>The Middle']);
+            songList.push(['warpig','War<br/>Pigs']);
+            songList.push(['workweekend','Working For<br/>The Weekend']);
+            $(document).ready(function() {
+                $html = '';
+                counter = 0;
+                songList.forEach(function (entry) {
+                    if (counter === 7) {
+                        $html += "<br/><br/>";
+                        counter = 0;
+                    }
+                    $html += `&nbsp;<a class="btn btn-primary size" href="./${entry[0]}.html">${entry[1]}</a>&nbsp;`;
+                    counter++;
+                });
+
+                $('#placeButtons').html($html);
+            });
+
         </script>
     </head>
     <body>
@@ -24,7 +58,9 @@
                 <div class="col" id="placeButtons"></div>
             </div>
         </div>
+        <!--
         <script src="./songs.js"></script>
         <script src="./libFunctions.js"></script>
+        -->
     </body>
 </html>

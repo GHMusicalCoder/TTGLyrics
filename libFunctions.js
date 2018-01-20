@@ -4,7 +4,7 @@ $(document).ready(function() {
     $html = '';
     counter = 0;
     songList.forEach(function (entry) {
-        if (counter === 5) {
+        if (counter === 7) {
             $html += "<br/><br/>";
             counter = 0;
         }
