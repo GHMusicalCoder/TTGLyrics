@@ -1,1 +1,66 @@
-x
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Thrown 2 Gether Song Lyrics</title>
+        <meta name="description" content="Thrown2Gether Song Lyrics">
+        <meta name="author" content="MusicalCoder">
+        <link rel="stylesheet" href="./bootstrap.min.css">
+        <link rel="stylesheet" href="./site.css">
+        <script src="./jquery-3.2.1.min.js"></script>
+        <script src="./bootstrap.bundle.min.js"></script>
+        <script type="text/javascript">
+            $(document).off('.data-api');
+        </script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2">
+                    <a class="btn btn-primary size" href="./index.html">HOME</a>
+                </div>
+                <div class="col-10">
+                    <div class="songTitle">American Girl</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col lyrics">
+                    <hr>
+                    She was more like a beauty queen from a movie scene<br/>
+					I said, "Don't mind, but what do you mean I am the one<br/>
+					Who will dance on the floor in the round?"<br/>
+					She said I am the one who will dance on the floor in the round<br/>
+					<br/>She told me her name was Billie Jean as she caused a scene<br/>
+					Then every head turned with eyes that dreamed of being the one<br/>
+					Who will dance on the floor in the round<br/>
+					<br/>People always told me, "Be careful of what you do.<br/>
+					And don't go around breaking young girls' hearts."<br/>
+					And mother always told me, "A-be careful of who you love,<br/>
+					And be careful of what you do 'Cause the lie becomes the truth."<br/>
+					<br/>Billie Jean is not my lover She's just a girl<br/>
+					who claims that I am the one but the kid is not my son<br/>
+					She says I am the one But the kid is not my son<br/>
+					<br/>For forty days and for forty nights Law was on her side<br/>
+					But who can stand When she's in demand Her schemes and plans<br/>
+					'Cause we danced on the floor in the round<br/>
+					So take my strong advice Just remember to always think twice<br/>
+					(Do think twice, do think twice.)<br/>
+					<br/>She told, "My baby, we'd danced 'til three." Then she looked at me<br/>
+					Then showed a photo of a baby cry His eyes looked like mine, oh, no<br/>
+					Do a dance on the floor in the round, baby<br/>
+					<br/>A-people always told me, "Be careful of what you do<br/>
+					And don't go around breaking young girls' hearts."<br/>
+					A-but she came and stood right by me And just the smell of sweet perfume<br/>
+					And this happened much too soon And she called me to her room<br/>
+					<br/>Billie Jean is not my lover She's just a girl<br/>
+					who claims that I am the one But the kid is not my son<br/>
+                </div>
+            </div>
+            <div class="row">
+                    <div class="col-2">
+                        <a class="btn btn-primary size" href="./index.html">HOME</a>
+                    </div>
+                </div>
+        </div>
+    </body>
+</html>
