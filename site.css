@@ -16,7 +16,6 @@
 
 .size {
 	width: 125px;
-    height: 65px;
 }
 
 .chords {
@@ -26,8 +25,3 @@
 	color: blue;
 }
 
-span {
-    display: inline-block;
-    vertical-align: middle;
-}
-	
