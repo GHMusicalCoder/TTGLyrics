@@ -25,3 +25,8 @@
 	color: blue;
 }
 
+.mainbtn {
+	width: 100%;
+	height: 64px;
+	font-size: 1.4em;
+}

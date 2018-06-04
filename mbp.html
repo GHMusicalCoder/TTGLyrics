@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Thrown 2 Gether Song Lyrics</title>
+        <meta name="description" content="Thrown2Gether Song Lyrics">
+        <meta name="author" content="MusicalCoder">
+        <link rel="stylesheet" href="./bootstrap.min.css">
+        <link rel="stylesheet" href="./site.css">
+		<script src="./general.js"></script>
+        <script src="./jquery-3.2.1.min.js"></script>
+        <script src="./bootstrap.bundle.min.js"></script>
+        <script type="text/javascript">
+            $(document).off('.data-api');
+			
+            // format of a song entry is file name (without html), button info in html
+            songList.push(['allsummer','All<br/>Summer Long']);
+			songList.push(['amergirl','American<br/>Girl']);
+			songList.push(['anotherbite','Another One<br/>Bites The Dust']);
+			songList.push(['badgirlfriend','Bad<br/>Girlfriend']);
+            songList.push(['billiejean','Billie<br/>Jean']);
+            songList.push(['bluecolor','Blue Ain\'t<br/>Your Color']);
+            songList.push(['breakchain','Breaking<br/>The Chains']);
+            songList.push(['brickhouse','Brick<br/>House']);
+            songList.push(['browneye','Brown Eyed<br/>Girl']);
+			songList.push(['cakeocean','Cake By<br/>The Ocean']);
+			songList.push(['centerfold','Centerfold']);
+			songList.push(['dontstop','Don\'t Stop<br/>Believin\'']);
+            songList.push(['doublevision','Double<br/>Vision']);
+            songList.push(['entersand','Enter<br/>Sandman']);
+            songList.push(['everybody','Everybody<br/>Wants You']);
+            songList.push(['faith','Faith']);
+            songList.push(['fatbottom','Fat Bottom<br/>Girls']);
+			songList.push(['feelmakelove','Feel Like<br/>Makin\' Love']);
+            songList.push(['fightright','Fight For<br/>Your Right']);
+			songList.push(['footloose','Footloose']);
+            songList.push(['gimme3steps','Gimme 3<br/>Steps']);
+            songList.push(['getoverit','Get<br/>Over It']);
+			songList.push(['sloopy','Hang On<br/>Sloopy']);
+			songList.push(['harder2breathe','Harder<br/>To Breathe']);
+            songList.push(['highground','Higher<br/>Ground']);
+            songList.push(['honkytonkwoman','Honkytonk<br/>Woman']);
+            songList.push(['holdmyhand','Hold My<br/>Hand']);
+            songList.push(['hungrywolf','Hungry Like<br/>The Wolf']);
+			songList.push(['hurtgood','Hurt So<br/>Good']);
+			songList.push(['fallinlove','I\'ll Fall In<br/>Love Again']);
+			songList.push(['inmydreams','In My<br/>Dreams']);
+            songList.push(['nodoctor','I Don\'t Need<br/>No Doctor']);
+			songList.push(['jessiegirl','Jessie\'s<br/>Girl']);
+			songList.push(['keephands','Keep Your Hands<br/>To Yourself']);
+			songList.push(['learn2fly','Learn<br/>To Fly']);
+			songList.push(['livmidnight','Living After<br/>Midnight']);
+            songList.push(['livprayer','Living On<br/>A Prayer']);
+            songList.push(['longtrain','Long Train<br/>Running']);
+            songList.push(['loveshack','Love<br/>Shack']);
+            songList.push(['margaritaville','Margaritaville']);
+            songList.push(['moredrink','More I<br/>Drink']);
+            songList.push(['mustangsally','Mustang<br/>Sally']);
+			songList.push(['ownworst','My Own<br/>Worst Enemy']);
+			songList.push(['oneilove','The One<br/>I Love']);
+            songList.push(['funkymusic','Play That<br/>Funky Music']);
+			songList.push(['rockusa','R.O.C.K. In<br/>The USA']);
+			songList.push(['rockymtnway','Rocky<br/>Mountain Way']);
+            songList.push(['sevenbridges','Seven<br/>Bridges Road']);
+            songList.push(['shoutoutloud','Shout It<br/>Out Loud']);
+            songList.push(['shutupdance','Shut Up<br/>And Dance']);
+            songList.push(['wonderful','Some Kind<br/>Of Wonderful']);
+			songList.push(['savehorse','Save A<br/>Horse']);
+			songList.push(['sepways','Separate<br/>Ways']);
+            songList.push(['stuckmiddle','Stuck In<br/>The Middle']);
+			songList.push(['takecarebiz','Taking Care<br/>Of Business']);
+            songList.push(['tenwhiskey','Tennessee<br/>Whiskey']);
+            songList.push(['tiemother','Tie Your<br/>Mother Down']);
+            songList.push(['turnloose','Turn Me<br/>Loose']);
+			songList.push(['turnjap','Turning<br/>Japanese']);
+			songList.push(['underbridge','Under The<br/>Bridge']);
+			songList.push(['upfunk','Uptown<br/>Funk']);
+            songList.push(['warpig','War<br/>Pigs']);
+            songList.push(['likeaboutyou','What I Like<br/>About You']);
+            songList.push(['wildwest','Wild Wild<br/>West']);
+            songList.push(['workweekend','Working For<br/>The Weekend']);
+			songList.push(['tookthewords','You Took<br/>The Words']);
+            $(document).ready(function() {
+                $html = '';
+                counter = 0;
+                songList.forEach(function (entry) {
+                    if (counter === 7) {
+                        $html += "<br/><br/>";
+                        counter = 0;
+                    }
+                    $html += `&nbsp;<a class="btn btn-primary size" href="./${entry[0]}.html">${entry[1]}</a>&nbsp;`;
+                    counter++;
+                });
+
+                $('#placeButtons').html($html);
+            });
+
+        </script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div class="title">Thrown 2 Gether Song List</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" id="placeButtons"></div>
+            </div>
+        </div>
+    </body>
+</html>
