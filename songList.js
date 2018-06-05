@@ -1,4 +1,4 @@
-varSongList = [
+var songList = [
 {
 "file":"allsummer",
 "title":"All Summer Long",
@@ -336,3 +336,4 @@ varSongList = [
 }
 ]
 
+songList.sort(dynamicSort("title"));
