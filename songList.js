@@ -421,6 +421,12 @@ var songList = [
 	"file":"thinkoutloud",
 	"title":"Thinking Out Loud",
 	"project":"mbp"
+},
+{
+	"id": 70,
+	"file":"perfect",
+	"title":"Perfect",
+	"project":"mbp"
 }
 ]
 
