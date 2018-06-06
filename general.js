@@ -19,3 +19,9 @@ function dynamicSort(property) {
         return result * sortOrder;
     }
 }
+
+function getSong(id) {
+	for (var i = -1; i++ < songList.length;) {
+		if (songList[i].id === id) return songList[i]
+	}
+}

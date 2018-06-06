@@ -12,9 +12,9 @@ $footHtml = '<div class="col-2">' +
 	`<button type="button" class="btn btn-primary size" onclick="window.location.href='./${$home}'">HOME</button>` +
 	'</div>';
 	
-function LoadTitle(title) {
+function LoadSong() {
     $('#headerRow').html($headHtml);
-    $('#songTitle').html(title);
+    $('#songTitle').html(sessionStorage.getItem("songTitle"));
 	$('#footerRow').html($footHtml)
 }
 
@@ -32,11 +32,17 @@ function LoadButtons(page) {
 			counter = 0;
 		}
 		
-		if (entry['project'] === page || entry['project'] === "all") {
-			$html += `&nbsp;<button type="button" class="btn btn-primary size" onclick="window.location.href='./${entry['file']}.html'">${entry['title']}</button>&nbsp;`;
+		if (entry.project === page || entry.project === "all") {
+			$html += `&nbsp;<button type="button" class="btn btn-primary size" onclick="LoadPage(${entry.id})">${entry.title}</button>&nbsp;`;
 			counter++;
 		}
 	});
 
 	$('#placeButtons').html($html);
+}
+
+function LoadPage(id) {
+	song = getSong(id);
+	sessionStorage.setItem("songTitle", song.title);
+	window.location.href = `./${song.file}.html`;
 }
