@@ -433,6 +433,30 @@ var songList = [
 	"file":"heartmatter",
 	"title":"Heart Of The Matter",
 	"project":"mbp"
+},
+{
+	"id": 72,
+	"file":"dontthink",
+	"title":"I Don't Think I Will",
+	"project":"mbp"
+},
+{
+	"id": 73,
+	"file":"everyrose",
+	"title":"Every Rose Has Its Thorn",
+	"project":"mbp"
+},
+{
+	"id": 74,
+	"file":"wonderfultonite",
+	"title":"Wonderful Tonight",
+	"project":"mbp"
+},
+{
+	"id": 75,
+	"file":"takeiteasy",
+	"title":"Take It Easy",
+	"project":"mbp"
 }
 ]
 
