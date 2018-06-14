@@ -463,6 +463,12 @@ var songList = [
 	"file":"sweethomebama",
 	"title":"Sweet Home Alabama",
 	"project":"mbp"
+},
+{
+	"id": 77,
+	"file":"wemakelove",
+	"title":"When We Make Love",
+	"project":"mbp"
 }
 ]
 
