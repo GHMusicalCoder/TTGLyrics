@@ -457,6 +457,12 @@ var songList = [
 	"file":"takeiteasy",
 	"title":"Take It Easy",
 	"project":"mbp"
+},
+{
+	"id": 76,
+	"file":"sweethomebama",
+	"title":"Sweet Home Alabama",
+	"project":"mbp"
 }
 ]
 
