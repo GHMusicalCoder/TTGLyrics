@@ -469,7 +469,14 @@ var songList = [
 	"file":"wemakelove",
 	"title":"When We Make Love",
 	"project":"mbp"
+},
+	{
+	"id": 78,
+	"file":"hotelcalifornia",
+	"title":"Hotel California",
+	"project":"mbp"
 }
+
 ]
 
 songList.sort(dynamicSort("title"));
