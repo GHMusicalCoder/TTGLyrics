@@ -258,7 +258,7 @@ var songList = [
 	"id": 42,
 	"file":"mustangsally",
 	"title":"Mustang Sally",
-	"project":"ttg"
+	"project":"all"
 },
 {
 	"id": 43,
