@@ -481,6 +481,12 @@ var songList = [
 	"file":"inyoureyes",
 	"title":"In Your Eyes",
 	"project":"mbp"
+},
+{
+	"id": 80,
+	"file":"anotherthing",
+	"title":"U Got Another Thing Comin",
+	"project":"ttg"
 }
 ]
 
