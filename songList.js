@@ -487,6 +487,12 @@ var songList = [
 	"file":"anotherthing",
 	"title":"U Got Another Thing Comin",
 	"project":"ttg"
+},
+{
+	"id": 81,
+	"file":"folsomprison",
+	"title":"Folsom Prison Blues",
+	"project":"all"
 }
 ]
 
