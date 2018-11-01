@@ -505,6 +505,12 @@ var songList = [
 	"file":"blurredlines",
 	"title":"Blurred Lines",
 	"project":"ttg"
+},
+{
+	"id": 84,
+	"file":"beerdrinkers",
+	"title":"Beer Drinkers",
+	"project":"ttg"
 }
 ]
 
