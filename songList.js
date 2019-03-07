@@ -523,6 +523,11 @@ var songList = [
 	"file":"madeloveyou",
 	"title": "I Made 4 Loving U",
 	"project": "ttg"
+},
+{	"id": 87,
+	"file": "moveslikejagger",
+	"title": "Moves Like Jagger",
+	"project": "ttg"
 }
 ]
 
